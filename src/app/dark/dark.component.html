@@ -1,0 +1,9 @@
+<div class="min-h-screen min-w-full bg-slate-200 dark:bg-slate-700">
+    <div class="bg-teal-600 text-white p-4 font-semibold text-lg shadow-lg dark:bg-slate-900"> 
+        Dark Mode with Angular And Tailwind
+        <button (click)="darkMode.set(!darkMode())">        
+            <span *ngIf="!darkMode()" class="material-icons">dark_mode</span>
+            <span *ngIf="darkMode()" class="material-icons">light_mode</span>
+        </button>
+        </div>
+    </div>

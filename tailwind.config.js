@@ -4,6 +4,7 @@ module.exports = {
     "./src/**/*.{html,ts}", 
     "./node_modules/flowbite/**/*.js"// add this line
   ],
+  darkMode:'class',
   theme: {
     extend: {},
   },
